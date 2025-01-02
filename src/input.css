@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-hover{
+    @apply hover:text-[#0a4254]
+}
+.bt-hover{
+    @apply hover:bg-[#0a4254]
+}
+.btn-hover{
+    @apply hover:bg-red-400
+}
